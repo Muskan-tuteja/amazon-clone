@@ -140,7 +140,7 @@ nav img:hover{
 }
 .box-col{
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   gap: 10px;
   padding: 15px 20px;
   background: #fff;
@@ -171,7 +171,7 @@ nav img:hover{
 }
 .products-slider .products img{
   max-width: 200px;
-  max-height: 200;
+  max-height: 200px;
 }
 .products-slider .products::-webkit-scrollbar{
   display: none;
@@ -226,4 +226,12 @@ nav img:hover{
   font-size: 15px;
   font-weight: 400;
 
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background: #131921;
+  padding: 20px 60px;
 }
