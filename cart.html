@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cart</title>
-   <link
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="cart.css">
-</head>
-<body>
-  <nav>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
+    <nav>
       <a href="/index.html"><img src="images/logo .png" width="100" /></a>
       <div class="nav-country">
         <img src="images/location.png" height="20" />
@@ -43,7 +43,7 @@
         <i class="fa-solid fa-caret-down" height="12px"></i>
       </div>
       <div class="nav-text">
-        <p>Hello, Sign in</p>
+        <p><a href="sigin.html">Hello, Sign in</a></p>
 
         <h1>
           Account & Lists
@@ -57,10 +57,13 @@
           <i class="fa-solid fa-caret-down" height="8px"></i>
         </h1>
       </div>
-      <a href="#">
-        <i class="fa-solid fa-cart-shopping"> </i>
+      <a href="/sigin.html" class="mobile-user-icon" style="display: none">
+        <img src="images/user.png" alt="" />
       </a>
-      <p class="shop">Cart</p>
+      <a href="#">
+        <i class="fa-solid fa-cart-shopping">
+          <h4 class="shop">Cart</h4></i>
+      </a>
     </nav>
     <div class="nav-bottom">
       <div>
@@ -82,23 +85,36 @@
     <div class="cart">
       <div class="cart-left">
         <h1>Shopping Cart</h1>
-        <hr>
+        <hr />
         <div class="product-cart-list">
-          <img src="/images/ipad.png" alt="" width="400px">
+          <img src="/images/ipad.png" alt="" width="180px" />
           <div>
             <div class="product-cart-titleprice">
-              <p>Apple iPad (10th Generation): with A14 Bionic chip, 27.69 cm (10.9″) Liquid Retina Display, 64GB, Wi-Fi 6, 12MP front/12MP Back Camera, Touch ID, All-Day..</p>
+              <p>
+                Apple iPad (10th Generation): with A14 Bionic chip, 27.69 cm
+                (10.9″) Liquid Retina Display, 64GB, Wi-Fi 6, 12MP front/12MP
+                Back Camera, Touch ID, All-Day..
+              </p>
               <p><b>$249.00</b></p>
             </div>
-            <p class="product-cart-bestseller"><span>#1 Best Seller </span> in Computer Tablets</p>
+            <p class="product-cart-bestseller">
+              <span>#1 Best Seller </span> in Computer Tablets
+            </p>
             <p class="product-cart-stock">In Stock</p>
-            <p class="product-cart-delivery">FREE delivery Mon, <b>Jan 29 </b>Available at Checkout</p>
+            <p class="product-cart-delivery">
+              FREE delivery Mon, <b>Jan 29 </b>Available at Checkout
+            </p>
             <p class="product-cart-returns">FREE Returns &#11191;</p>
-            <p class="product-cart-giftoption">Gift options not Available.<span>Learn more</span></p>
+            <p class="product-cart-giftoption">
+              Gift options not Available.<span>Learn more</span>
+            </p>
             <div class="product-cart-specs">
-              <p><b>Style:</b></p> <p>Wifi</p>
-              <p><b>Size:</b></p> <p>64GB</p>
-              <p><b>Color:</b></p> <p>Pink</p>
+              <p><b>Style:</b></p>
+              <p>Wifi</p>
+              <p><b>Size:</b></p>
+              <p>64GB</p>
+              <p><b>Color:</b></p>
+              <p>Pink</p>
             </div>
             <div class="cart-list-action">
               <select>
@@ -108,20 +124,92 @@
                 <option value="Qty: 4">Qty: 4</option>
                 <option value="Qty: 5">Qty: 5</option>
               </select>
-              <hr>
+              <hr />
               <p class="action-btn">Delete</p>
-              <hr>
+              <hr />
               <p class="action-btn">Save for Later</p>
-              <hr>
+              <hr />
               <p class="action-btn">Compare with similar items</p>
-              <hr>
+              <hr />
               <p class="action-btn">Share</p>
             </div>
           </div>
         </div>
+        <hr />
+        <div class="product-cart-list">
+          <img src="images/loptop.png" alt="" width="180px" />
+          <div>
+            <div class="product-cart-titleprice">
+              <p>
+                Click to see full view Lenovo Smartchoice LOQ, Intel Core
+                i5-12450HX, 12th Gen, RTX 3050-6GB, 16GB RAM, 512GB SSD, FHD
+                144Hz 300Nits, 15.6"/39.6cm, Windows 11, MS Office 21, Grey,
+                2.4Kg, 83GS003UIN, Gaming Laptop
+              </p>
+              <p><b>$400.00</b></p>
+            </div>
+            <p class="product-cart-bestseller">
+              <span>#1 Best Seller </span> in Computer Tablets
+            </p>
+            <p class="product-cart-stock">In Stock</p>
+            <p class="product-cart-delivery">
+              FREE delivery Mon, <b>Jan 29 </b>Available at Checkout
+            </p>
+            <p class="product-cart-returns">FREE Returns &#11191;</p>
+            <p class="product-cart-giftoption">
+              Gift options not Available.<span>Learn more</span>
+            </p>
+            <div class="product-cart-specs">
+              <p><b>Style:</b></p>
+              <p>Wired</p>
+              <p><b>Hard Disk Size:</b></p>
+              <p>512GB</p>
+              <p><b>Color:</b></p>
+              <p>Luna Grey</p>
+              <p><b>Screen Size:</b></p>
+              <p>15.6 InchesGrey</p>
+            </div>
+            <div class="cart-list-action">
+              <select>
+                <option value="Qty: 1">Qty: 1</option>
+                <option value="Qty: 2">Qty: 2</option>
+                <option value="Qty: 3">Qty: 3</option>
+                <option value="Qty: 4">Qty: 4</option>
+                <option value="Qty: 5">Qty: 5</option>
+              </select>
+              <hr />
+              <p class="action-btn">Delete</p>
+              <hr />
+              <p class="action-btn">Save for Later</p>
+              <hr />
+              <p class="action-btn">Compare with similar items</p>
+              <hr />
+              <p class="action-btn">Share</p>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="cart-list-subtotal">Subtotal (2items):<b>$274.90</b></div>
       </div>
-      <div class="cart-right"></div>
-    </div>
+      <div class="cart-right">
+        <div class="cart-free-delivery">
+          <p>&#x2705;</p>
+          <p>
+            Enjoy FREE 1-day delivery on <b>40Lakh+ items</b> and more with
+            Prime!
+          </p>
+        </div>
 
-</body>
+        <p class="cart-subtotal">Subtotal (2items):<b>$274.90</b></p>
+        <p class="cart-right-gift">
+          <input type="checkbox" />This order container a gift
+        </p>
+        <button>Proceed to checkout</button>
+      </div>
+    </div>
+    <footer class="footer-cart">
+      <img src="images/logo2.png'.avif" width="100" />
+      <p>&copy; 1996-2025,Amazon.com, Inc. or ites affiliates</p>
+    </footer>
+  </body>
 </html>
